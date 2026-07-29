@@ -28,12 +28,13 @@ Is this right for me?
 ## Week 8 — Reproduction & solution planning
 
 **Reproduction commit link:** [link to commit documenting the reproduced issue]
+https://github.com/dkn345/pathreview/commit/7c7a7f711980797228581e27062d965b40674808
 
 **Reproduction summary:**
 [1–2 sentences: How did you reproduce the issue? What did you observe?]
 I reproduced the issue by checking whether the referenced test file existed using `test -f tests/unit/test_review_routes.py && echo "FILE EXISTS" || echo "FILE MISSING"`. The command returned `FILE MISSING`, confirming that the route-level test file for this scenario is not present in the current repository.
 
-**PLAN.md link:** [link to PLAN.md in your fork]
+**PLAN.md link:** [Link Text](PLAN.md)
 
 **Walkthrough video (recommended):** Not available
 
