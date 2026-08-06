@@ -40,3 +40,34 @@ I reproduced the issue by checking whether the referenced test file existed usin
 
 **Blockers or open questions:**
 [Anything you're still uncertain about going into Week 9, or leave blank]
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+I created `tests/unit/test_review_routes.py` and added a unit test for the `POST /reviews` error path when no ingested documents are available. The test verifies that the route preserves the controlled HTTP error and does not schedule background processing.
+
+**Next steps:**
+I will commit and push the test, open a draft pull request, request peer or mentor feedback, address any relevant feedback, and finalize the PR.
+
+**Blockers:**
+The repository has pre-existing lint and unit-test failures unrelated to my change. My new test passes independently, and Ruff passes for `tests/unit/test_review_routes.py`.
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** [link to your submitted pull request]
+
+**Branch:** `test/88-review-no-test-when-no-ingest`
+
+**What you built:**
+I added route-level test coverage for the `POST /reviews` error path when no ingested documents are available. The test confirms that the endpoint preserves the controlled `400 Bad Request` response and does not queue the background review-processing task.
+
+**Tests added or updated:**
+Created `tests/unit/test_review_routes.py` with `test_profile_no_ingested_docs`. The new test passes independently.
+
+**Self-review confirmation:** [X] make check passes  [X] make test-unit passes
+
+**Draft PR feedback received from:** [name or Slack handle, or "none"]
