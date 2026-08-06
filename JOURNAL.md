@@ -68,7 +68,7 @@ I added route-level test coverage for the `POST /reviews` error path when no ing
 **Tests added or updated:**
 Created `tests/unit/test_review_routes.py` with `test_profile_no_ingested_docs`. The new test passes independently.
 
-**Self-review confirmation:** [X] make check passes  [X] make test-unit passes
+**Self-review confirmation:** [] make check passes  [] make test-unit passes
 
 **Draft PR feedback received from:** [name or Slack handle, or "none"] 
 none
