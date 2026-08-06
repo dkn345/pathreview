@@ -58,7 +58,7 @@ The repository has pre-existing lint and unit-test failures unrelated to my chan
 
 ### Check-in 2 (end of week)
 
-**PR link:** [link to your submitted pull request]
+**PR link:** (https://github.com/ascherj/pathreview/pull/998)
 
 **Branch:** `test/88-review-no-test-when-no-ingest`
 
@@ -70,4 +70,5 @@ Created `tests/unit/test_review_routes.py` with `test_profile_no_ingested_docs`.
 
 **Self-review confirmation:** [X] make check passes  [X] make test-unit passes
 
-**Draft PR feedback received from:** [name or Slack handle, or "none"]
+**Draft PR feedback received from:** [name or Slack handle, or "none"] 
+none
