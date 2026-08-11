@@ -72,3 +72,34 @@ Created `tests/unit/test_review_routes.py` with `test_profile_no_ingested_docs`.
 
 **Draft PR feedback received from:** [name or Slack handle, or "none"] 
 none
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [X] No — still awaiting review
+
+**Summary of feedback:**
+No review.
+
+**How you responded:**
+
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+I found navigating the exact files and understanding the behavior of the function to be a bit difficult since there were many "reviews" under many folders. I had to write a test for a review of profile with no documents and tracing the behavior was slightly difficult due to many versions being there. I was not expecting the function to span multiple folders, so that aspect surprised me.
+
+**What did you learn about working in a large codebase?**
+I found contributing to someone else's production code both easier and more difficult than my own project. The aspects I found easy was that there was already a layout to start off with which meant I did not have to plan from scratch. However, the difficult aspect was that there was already so much and I got overwhelmed trying to figure things out. What I learned was to leverage AI in this step especially since it can speed up ones understanding of the files and how they interact. By understanding quicker, the bug fix can also be quicker.
+
+**How did AI tools help — and where did they fall short?**
+AI was useful on understanding what to do with unfinished information. For my part, I was confused on the behavior of the review as the text files did not clearly show whether there was an error catching mechanism that I need to write a test for or do the whole logic on my own. In this case, AI helped me with the confusion and I got test cases that could help whether or not the logic was finished. What AI could not help with was the context. I knew the context and what files to model off of along with running and verifying the test was accurate. 
+
+**What would you do differently if you started over?**
+I would try to take more time with the understanding of the codebase instead of jumping straight in. Although I was better at being patient and understanding the code, I feel like I still rushed the process. Hence, I would take more time familiarizing, using AI for clarifying questions, and maybe even map out essential parts before going to the bug.
+
+**What are you most proud of from this module?**
+I am proud that I contributed to an open source project. This area has been intimidating for me, but I am glad I got out of the comfort zone and navigated through unfamiliar areas. I realized especially with many tools at hand that open source is not as intimidating and is more welcoming than expected.
